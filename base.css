@@ -1,0 +1,280 @@
+/* 上の部分は気にせずここから書く */
+
+
+
+
+.box2 p1 {/*画像の位置子供2人、画像文字ボタンの位置*/
+	font-size: 25px;
+    position: absolute;
+    top: 145px;
+    left: 140px;
+	text-align: center;
+	margin: 0 auto;
+	width:auto;
+}
+
+.box2{/*画像の位置子供2人、画像文字ボタンの位置*/
+	position: absolute;
+    top: 30px;
+    left: -5px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+.sample-box {  /*画像の位置子供2人*/
+    position: relative;
+	position: absolute;
+    top: -102%;
+    left: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+p1{color:white/*文字色*/}
+
+.button02 a {/*縄跳び・ロープ寄付はこちらからbutton*/
+	display: flex;
+	margin: 0 auto;
+	padding: 1em 2em;
+	width: 300px;
+	color: black;
+	font-size: 14px;
+	font-weight: 1000;
+	background-color:white;
+	border-radius: 100vh;
+	text-align: center;
+}
+
+
+.flex {
+  display: flex; /*ロゴと文字の横並び*/
+  text-align: center;
+  margin: 0 auto;
+}
+.flex .image {
+  width: 640px; /*ロゴ文字サイズ指定ROPEASE PROJECT*/
+  margin: 0;
+  text-align: center;
+}
+.flex .text {/*ROPEASE PROJECTの位置と大きさと太字*/
+  margin: 0 0 10 -580px;
+  font-size: 30px;
+  font-weight: bold;/*太字*/
+  text-align: center;
+}
+.flex {
+	position: relative;
+	/*left:150px;/*このpxがページ余白の原因。改良しましょう→改良済み*/
+	text-align: center;
+	margin: 0 auto;
+  }
+
+  header{     /*ヘッドLINK位置*/
+	position: absolute;/*リンク位置上に固定*/
+	right: 0px;
+	top: 10px;
+	text-align: center;/*字の中央寄せ*/
+	margin-top:auto;/*これを書かないとidの字が消える*/
+  }
+
+ ul{/*右空白*/
+	margin-right: 200px;
+ }
+ /*リンクを黒字*/
+  a{color:black}
+  /*リンク全体を左に150px*/
+  .flex{
+    margin-left:150px;
+	text-align: center;
+  }
+
+
+
+
+
+.p0{
+	font-size: 30px;
+	font-weight: bold;/*太字*/
+	text-align: center;
+	margin: 0 auto;
+}
+
+.under {/*アンダーラインの色*/
+	text-decoration :3px solid underline red;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.efg{/*ボックスの影*/
+	box-shadow: 4px 4px 4px gray;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+.button03 a {
+	display: flex;
+	margin: 0 auto;
+	padding: 1em 2em;
+	width: 280px;
+	color: black;
+	font-size: 13px;
+	font-weight: 700;
+	background-color: white;
+	border-radius: 100vh;
+	text-align: center;
+}
+.button03{/*画像の位置子供2人、画像文字ボタンの位置*/
+	position: absolute;
+    top: 130px;
+    left: 500px;
+	text-align: center;
+	margin: 0 auto;
+}
+p2{color:white}/*指定タグ文字色*/
+p2{position:relative;top: 30px;left:-10px;}/*文章本体の位置指定*/
+p2{text-align: center;}/*指定タグ文章本体の中央寄せ*/
+p2{font-size:25px;}
+p2{	text-align: center;
+	margin: 0 auto;}
+
+
+
+
+
+
+div.box5 {/*フッターのライン*/
+    border-top: 1px solid white;
+    padding-top:0px;
+    padding-bottom: 0px;
+	text-align: center;
+	margin: 0 auto;
+	bottom: 300px
+}
+footer {/*フッターの位置*/
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 1770px;
+	bottom: 0;
+	width: 100%;/*文字位置*/
+	height: 100px;/*文字位置*/
+	color:white;/*字の色*/
+	text-align: center;/*字の中央寄せ*/
+	margin-top:auto;/*これを書かないとidの字が消える*/
+}
+
+.ABC{
+	width:300px;
+	height:300px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.DOG{
+	width:300px;
+	height:300px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.WO{
+	width:480px;
+	height:236px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+li{/*ヘッドリンク横並び*/
+	float: right;
+	margin:10px 30px 10px 0;
+	text-align: center;
+}
+.zzz{
+    display: flex;/*画面にflexを適用*/
+    justify-content: center;/*float状態での中央寄せ*/
+    flex-wrap: wrap;/*floatでの横並び維持*/
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+
+.zzz{
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+text-align: center;
+margin: 0 auto;
+}
+
+
+
+footer {
+margin-top: auto;
+}
+.cover {/*赤っぽい下の画像*/
+	margin-bottom: 20px;
+	width: 1300px;
+	height: 300px;
+	background-image: url("../3_2/images/bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+    top: 1470px;
+    left: -5px;
+	text-align: center;
+	margin: 0 auto;
+}
+.p{
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+.box2 {/*赤っぽいライン上の背景画像の各指定*/
+	background: url("../3_2/images/bg.png"); /* 背景画像を指定 */
+	width: 1300px;   /* 画像にあわせて適当な幅を指定 */
+	height:390px;
+	padding: 20px;  /* 適当な余白を指定 */
+	top: 60px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+
+body,
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  margin: 0 auto;
+}
+.body {
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+div.box92{
+	position: relative;
+	border-top: 1px solid rgb(230, 231, 231);
+	text-align: center;
+	margin: 0 auto;
+	bottom: -1100px;
+	border-width:2px;
+	width: 1295px;
+  }
+
+
+.top{
+	position: absolute;
+	right:500px;
+	bottom:-1200px;
+	color: white;
+}
